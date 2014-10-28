@@ -42,14 +42,14 @@
 			<c:otherwise>
 				<table>
 				<tr>
-					<td> Id</td>
+					<!-- <td> Id</td> -->
 					<td> Name</td>
 					<td> Surname</td>
 					<td> E-Mail</td>
 				</tr>
 				<c:forEach var="employee" items="${applicationScope.employees}">
 					<tr>
-						<td><c:out value="${employee.id}"></c:out></td> 
+						<!--  <td><c:out value="${employee.id}"></c:out></td> -->
 						<td><c:out value="${employee.name}"></c:out></td>
 						<td><c:out value="${employee.surname}"></c:out></td>
 						<td><c:out value="${employee.email}"></c:out></td>
